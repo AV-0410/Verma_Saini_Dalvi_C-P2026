@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LocalLoop | About</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg border-bottom sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <img class="brand-logo" src="assets/logo.png" alt="LocalLoop logo" />
+        LocalLoop
+      </a>
+
+      <div class="d-flex gap-2">
+        <a class="btn btn-outline-brand" href="index.html">Browse</a>
+        <a class="btn btn-outline-brand" href="favorites.html">⭐ Favorites</a>
+        <a class="btn btn-brand" href="about.html">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+
+    <!-- hero -->
+    <section class="p-4 p-md-5 hero shadow-sm">
+      <h1 class="fw-bold mb-3">Empowering Local Communities Through Technology</h1>
+      <p class="mb-0" style="max-width: 75ch;">
+        LocalLoop is a community-driven discovery platform designed to help small businesses
+        increase visibility and engagement. By connecting users with local shops, services,
+        and health-focused businesses, we aim to strengthen local economies and foster
+        stronger community relationships.
+      </p>
+    </section>
+
+    <!-- feature cards -->
+    <section class="row g-3 mt-4">
+      <div class="col-12 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Discover</h5>
+            <p class="text-secondary mb-0">
+              Users can browse businesses by category, search keywords, and sort by highest
+              ratings or most reviewed to make informed decisions.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Support</h5>
+            <p class="text-secondary mb-0">
+              Verified reviews and favorites allow customers to support businesses while
+              building credibility and trust within the community.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Save</h5>
+            <p class="text-secondary mb-0">
+              Active deals and coupon codes are displayed with built-in expiry logic,
+              ensuring users always see relevant and current promotions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team -->
+    <section class="mt-5">
+      <div class="d-flex align-items-end justify-content-between flex-wrap gap-2">
+        <h2 class="fw-bold mb-0">Meet the Founders</h2>
+      </div>
+
+      <div class="row g-4 mt-3">
+
+        <!-- Ansh -->
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <img src="assets/team1.jpg" class="team-img mb-3" alt="Ansh Verma">
+              <h5 class="fw-semibold mb-1">Ansh Verma</h5>
+              <div class="text-secondary small mb-2">Founder</div>
+              <p class="text-secondary mb-0">
+                Led front-end development and user interface design, ensuring a clean,
+                intuitive experience aligned with LocalLoop’s brand identity.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Haaziq -->
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <img src="assets/team2.jpg" class="team-img mb-3" alt="Haaziq Dalvi">
+              <h5 class="fw-semibold mb-1">Haaziq Dalvi</h5>
+              <div class="text-secondary small mb-2">Founder</div>
+              <p class="text-secondary mb-0">
+                Focused on application logic, LocalStorage integration, and implementing
+                secure review verification to maintain platform integrity.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navkaran -->
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <img src="assets/team3.jpg" class="team-img mb-3" alt="Navkaran Saini">
+              <h5 class="fw-semibold mb-1">Navkaran Saini</h5>
+              <div class="text-secondary small mb-2">Founder</div>
+              <p class="text-secondary mb-0">
+                Managed testing, data structure organization, and overall system flow,
+                ensuring scalability and consistent performance across pages.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-secondary small mt-5 pb-3">
+      © <span id="year"></span> LocalLoop — Strengthening Local Economies Through Digital Innovation.
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="auth.js"></script>
+
+</body>
+
+</html>
