@@ -1,12 +1,12 @@
 # LocalLoop — FBLA Coding & Programming
 
-LocalLoop is a web app we built to help people discover and support small businesses in their local community. Users can browse listings, leave reviews, save favourites, and grab deals/coupons — all without needing a backend server.
+LocalLoop is a web app we built to help people discover and support small businesses in their local community. Users can browse listings, leave reviews, save favourites, and grab deals/coupons, all without needing a backend server.
 
 ## What it does
 - Browse local businesses across 4 categories: Food, Retail, Services, Health/Fitness
 - Search by name or keywords, and sort by rating or review count
 - Create an account and log in (with Google reCAPTCHA verification)
-- Leave star ratings and written reviews — your name shows up automatically
+- Leave star ratings and written reviews, your name shows up automatically
 - Save businesses to a favourites list, organized by category
 - Active deals and coupon codes are shown on listings; expired ones are hidden automatically
 
